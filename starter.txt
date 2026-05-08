@@ -1,0 +1,18 @@
+
+cd stock-ml-project
+pip install numpy pandas yfinance scikit-learn tensorflow flask matplotlib
+python3 app.py
+
+cd stockApp
+mvn spring-boot:run
+http://localhost:8080/stock/predict?symbol=TCS.NS
+
+cd frontend
+npm start
+
+
+
+TCS.NS
+
+http://localhost:8080/stock/predict?symbol=TCS.NS
+
